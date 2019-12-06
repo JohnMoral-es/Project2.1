@@ -1,0 +1,60 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 700px 1fr;
+  background-color: #2196F3;
+  padding: 5px; 
+ 
+}
+.grid-item {
+	background-color: rgba(240, 240, 240, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #4556a8;
+}
+
+.girdname {
+  display: grid;
+  grid-template-columns: 500px ;
+  background-color: #e6f2ff;
+  padding: 5px; 
+}
+  
+.title{
+	font: Times;
+	font-size: 70px;
+	border: #495591 solid 6px;
+	width: 350px;
+	height: 85px;
+	color: #122066 ;
+}
+
+.and{
+	font: Lucida Console;
+	font-size: 30px;
+	color: #00c8ff ;
+	width: 1500 ;
+}
+
+img {
+	width: 500px;
+    height: 300px;
+}
+
+h5 {
+	border: #036096 solid 6px;
+	width: 350px;
+	height: 40px;
+}
+
+#giant_picture {
+`	z-index: 4;
+	background-image: url("https://cdn11.bigcommerce.com/s-nq6l4syi/images/stencil/1280x1280/products/5733/6242/32114-1024__24702.1456984825.jpg?c=2?imbypass=on");
+	background-size: 100%;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
